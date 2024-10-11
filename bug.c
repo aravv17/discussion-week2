@@ -1,5 +1,3 @@
-/* Discussion 2 Demo - Memory Errors */
-
 #include <stdio.h>
 
 #define LEN 4 
