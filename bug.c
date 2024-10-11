@@ -16,18 +16,25 @@ void increment(int arr[], int length)
 
 int main()
 {
-    int arr[LEN] = {1, 2, 3, 4};
+    int arr1[LEN] = {1, 2, 3, 4};
     int arr2[LEN] = {10, 20, 30, 40};
 
-    increment(arr, LEN);
+    increment(arr1, LEN);
     increment(arr2, LEN);
 
+    // PRINTING ARR1
+    printf("arr1 = ");
     for (int i = 0; i < LEN; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+        printf("%d ", arr1[i]);
     }
+    printf("\n");
+
+    // PRINTING ARR2
+    printf("arr2 = ");
     for (int i = 0; i < LEN; i++) {
-        printf("arr2[%d] = %d\n", i, arr2[i]);
+        printf("%d ", arr2[i]);
     }
+    printf("\n");
 
     return 0;
 }
